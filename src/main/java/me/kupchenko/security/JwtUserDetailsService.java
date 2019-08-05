@@ -6,8 +6,6 @@ import me.kupchenko.model.User;
 import me.kupchenko.security.jwt.JwtUser;
 import me.kupchenko.security.jwt.JwtUserFactory;
 import me.kupchenko.service.UserService;
-import org.springframework.security.core.Authentication;
-import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;

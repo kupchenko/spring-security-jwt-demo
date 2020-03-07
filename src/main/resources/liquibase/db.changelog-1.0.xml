@@ -108,12 +108,13 @@
     </changeSet>
 
     <changeSet id="1.0.7" author="dkupchenko">
+        <!--        Username: admin, Password: admin-->
         <insert tableName="users">
             <column name="username" value="admin"/>
             <column name="email" value="admin@admin.admin"/>
             <column name="first_name" value="fadmin"/>
             <column name="last_name" value="ladmin"/>
-            <column name="password" value="$2a$10$4aD/gniTbdyQxeuG8s0BjOUtG7xXPK6LBlcqDwYvd1.V5mNKfwaze"/>
+            <column name="password" value="$2a$16$ZsgP6l22BWZ8vZqUCqE1Pe6f3ntGhCxxd8s/maLcAOgJSdKVUglS2"/>
         </insert>
 
         <insert tableName="user_roles">

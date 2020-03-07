@@ -1,4 +1,4 @@
-package me.kupchenko.rest;
+package me.kupchenko.controller;
 
 import lombok.RequiredArgsConstructor;
 import me.kupchenko.dto.UserDto;
